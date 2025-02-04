@@ -2,7 +2,7 @@
 
 # Spotify Downloader Bot
 
-[DEMO VERSION @Spotify_downloa_bot](https://t.me/Spotify_downloa_bot)
+[live bot  @VibeTune_rkbot](https://t.me/VibeTune_rkbot)
 
 ## Introduction
 > Yes, this repository is still maintained, and new features will be added over time.
@@ -18,19 +18,13 @@
 ### Why do I get a 403 Forbidden error in my logs?
 > Your VPS/Local Server might be blocked by YouTube. Try changing the IP address or using a proxy by filling the `FIXIE_SOCKS_HOST` variable, changing the location, or using cookies. Add this line ["cookiefile":"path"](https://github.com/Masterolic/Spotify-Downloader/blob/fe859965e62a5ca8f29fc69185cd132d456e4bfd/mbot/utils/mainhelper.py#L144) where `path` is defined as where your cookie file is. Refer [here](https://www.reddit.com/r/youtubedl/wiki/cookies/) for more details.
 
-## Note
-> This is the old repository of [@Spotify_downloa_bot](https://t.me/Spotify_downloa_bot), so it may be buggy and lack some features. However, it will still be maintained and updated with new features as they are developed.
 
 ## Technical Details
 
 ### Which language and Telegram API are used?
 > This bot is created using Python and the pyrogram library for Telegram.
 
-### Why is this open source?
-> I don't own this repo; this is an edited version of [@NeedMusicRobot](https://t.me/NeedMusicRobot).
 
-### Is this source code used for [@Spotify_downloa_bot](https://t.me/Spotify_downloa_bot)?
-> No, this [bot](https://github.com/rozari0/NeedMusicRobot) was the inspiration to build our bot. You can see our bot is entirely different, and some features will be implemented in this repository.
 
 ## Deployment
 
@@ -139,10 +133,10 @@ F_SUB_CHANNEL_INVITE_LINK = ""
 
 ## Donation
 > Please support me by buying me a pizza using the link below:
-[Buy Me A Pizza](https://www.buymeacoffee.com/Masterolic)
+[Buy Me A Pizza](buymeacoffee.com/Rkgroup)
 
 ## Feedback
-> Rate our bot [FEEDBACK](https://t.me/dailychannelsbot?start=spotify_downloa_bot)
+> Rate our bot [FEEDBACK](https://t.me/rkgroup_5316)
 
 ## About
 > A Simple Open Source Spotify Downloader Bot for Telegram.
@@ -150,5 +144,5 @@ F_SUB_CHANNEL_INVITE_LINK = ""
 ## Contact
 > If you need any help or want to provide feedback, don't hesitate to contact me:
 
-- [Instagram](https://instagram.com/masterolic_official)
-- [Telegram](https://t.me/Masterolic)
+- [Instagram](https://www.instagram.com/rkgroup_5316?igsh=MXJiYWdxejhxZW11Mw==)
+- [Telegram](https://t.me/rkgroup_5316)
