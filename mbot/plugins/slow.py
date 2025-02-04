@@ -43,17 +43,11 @@ from lyricsgenius import Genius
 supported_link = ["www.deezer.com", "open.spotify.com", "deezer.com", "spotify.com"]
 
 NOT_SUPPORT = [
-    -1001698167203,
-    -1001690327681,
-    -1001744816254,
-    -1001342321483,
-    -1001652993285,
-    -1001523223023,
+    
 ]
 
 NO_SPAM = [
-    -1001690327681,
-    -1001342321483,
+    
 ]
 
 # db = Database()
@@ -223,8 +217,7 @@ async def search(Mbot: Mbot, query: CallbackQuery):
         try:
             await query.message.reply_text(f"Done✅",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Feedback", callback_data="feed")]]))
-            await query.message.reply_text(f"Check out @spotify_downloa_bot(music)  @spotifynewss(News)")
-        except:
+         except:
             pass     
 
 @Mbot.on_callback_query(filters.regex(r"refresh"))
