@@ -1,4 +1,4 @@
-![Spotify Logo](https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg)
+![Spotify Logo](https://raw.githubusercontent.com/RKgroupkg/Spotify-Downloader/refs/heads/Flac/IMG_20250204_135342_050.jpg)
 
 # Spotify Downloader Bot
 
