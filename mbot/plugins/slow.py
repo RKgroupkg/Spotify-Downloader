@@ -217,7 +217,7 @@ async def search(Mbot: Mbot, query: CallbackQuery):
         try:
             await query.message.reply_text(f"Done✅",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Feedback", callback_data="feed")]]))
-         except:
+        except:
             pass     
 
 @Mbot.on_callback_query(filters.regex(r"refresh"))
