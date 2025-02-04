@@ -69,7 +69,6 @@ async def song(_, message):
       finally:
           try:
               shutil.rmtree(randomdir)
-              await message.reply_text(f"Check out @Spotify_downloa(music)  @Spotifynewss(Updates Group)")
               return await k.delete() 
           except:
               pass
