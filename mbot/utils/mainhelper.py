@@ -142,7 +142,7 @@ def download_songs(item, download_directory='.'):
         "addmetadata": True,
         "prefer_ffmpeg": False,
         "geo_bypass": True,
-
+        "cookiefile":"Cookie.txt" 
         "nocheckcertificate": True,
         "postprocessors": [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'flac', 'preferredquality': '693'}],
     }
