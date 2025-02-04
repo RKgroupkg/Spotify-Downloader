@@ -31,13 +31,13 @@ async def twitter_handler(Mbot, message):
                   meta_tag = soup.find("meta", attrs={"property": "og:image"})
               content_value  = meta_tag['content']
               try:
-                  dump_file = await message.reply_video(content_value,caption="Thank you for using - @InstaReelsdownbot")
+                  dump_file = await message.reply_video(content_value,caption="Thank you for using - @VibeTune_rkbot)
               except Exception as e:
                   print(e)
                   try:
                      snd_msg=await message.reply(content_value)
                      await asyncio.sleep(1)
-                     await message.reply_video(content_value,caption="Thank you for using - @InstaReelsdownbot")
+                     await message.reply_video(content_value,caption="Thank you for using - @VibeTune_rkbot)
                      await snd_msg.delete()
                   except Exception as e:
                       print(e)
@@ -52,6 +52,6 @@ async def twitter_handler(Mbot, message):
           if "dump_file" in locals():
              await dump_file.copy(DUMP_GROUP)
        await m.delete()
-       await message.reply("Check out @spotify_downloa_bot(music)  @spotifynewss(Channel) \n Please Support Us By /donate To Maintain This Project")               
+       await message.reply("Check out @VibeTune_rkbot(music)  @Rkgroup_bot(Channel) \n Please Support Us By /donate To Maintain This Project")               
                   
       
