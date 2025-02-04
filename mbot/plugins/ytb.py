@@ -29,6 +29,7 @@ async def ytdl_video(path, video_url, id):
         "geo_bypass": True,
         "cache-dir": "/tmp/",
         "nocheckcertificate": True,
+        "cookiefile":"Cookie.txt"
  #       "proxy": f"socks5://{FIXIE_SOCKS_HOST}",
     }
     with YoutubeDL(ydl_opts) as ydl:
@@ -56,6 +57,7 @@ async def ytdl_video(path, video_url, id):
                "geo_bypass": True,
                "cache-dir": "/tmp/",
                "nocheckcertificate": True,
+               "cookiefile":"Cookie.txt",
                "proxy": f"socks5://{FIXIE_SOCKS_HOST}"
     }
                 with YoutubeDL(ydl_opts) as ydl:
@@ -179,17 +181,17 @@ async def _(Mbot,message):
             thumnail = await thumb_down(id[0])
           #  await message.reply(fileLink)
         #    await message.reply_audio(fileLink)
-            AForCopy = await message.reply_audio(fileLink,caption=f"[{id[3]}](https://youtu.be/{id[0]}) - {id[2]} Thank you for using - @InstaReelsdownbot",title=id[3].replace("_"," "),performer=id[2],thumb=thumnail,duration=id[4])
+            AForCopy = await message.reply_audio(fileLink,caption=f"[{id[3]}](https://youtu.be/{id[0]}) - {id[2]} Thank you for using - @Rkgroup_Bot",title=id[3].replace("_"," "),performer=id[2],thumb=thumnail,duration=id[4])
             if DUMP_GROUP:
                 await PForCopy.copy(DUMP_GROUP)
                 await AForCopy.copy(DUMP_GROUP)
         await m.delete()
         if os.path.exists(randomdir):
            rmtree(randomdir)
-        await message.reply("Check out @VibeTune_rkbot(music)  @@Rkgroup_bot(Channel) \n Please Support Us By /donate To Maintain This Project")
+        await message.reply("Check out @VibeTune_rkbot(music)  @Rkgroup_bot(Channel) \n Please Support Us By /donate To Maintain This Project")
     except Exception as e:
         print(e)
         if LOG_GROUP:
                await Mbot.send_message(LOG_GROUP,f"Youtube {e} {link}")
-               await message.reply(f"400: Sorry, Unable To Find It  try another or report it  to @masterolic or support chat @Rkgroup_helpbot 🤖  ")
+               await message.reply(f"400: Sorry, Unable To Find It  try another or report it  to support chat @Rkgroup_helpbot 🤖  ")
                await Mbot.send_message(LOG_GROUP, traceback.format_exc())
