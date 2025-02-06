@@ -146,3 +146,12 @@ F_SUB_CHANNEL_INVITE_LINK = ""
 
 - [Instagram](https://www.instagram.com/rkgroup_5316?igsh=MXJiYWdxejhxZW11Mw==)
 - [Telegram](https://t.me/rkgroup_5316)
+
+<p align="center">
+  <a href="https://t.me/Rkgroup_Bot">
+    <img src="https://img.shields.io/static/v1?label=Join&message=Telegram%20Channel&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Channel" />
+  </a>
+  <a href="https://telegram.me/Rkgroup_helpbot">
+    <img src="https://img.shields.io/static/v1?label=Join&message=Telegram%20Group&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Group" />
+  </a>
+</p>
