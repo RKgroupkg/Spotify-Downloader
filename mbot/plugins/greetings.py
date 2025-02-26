@@ -35,7 +35,7 @@ async def start(client,message):
             text="Bot Channel", url="https://t.me/Rkgroup_Bot"),
         InlineKeyboardButton(
             text="Repo",
-            url="https://github.com/RKgroupkg/Spotify-Downloader/"),
+            url="https://github.com/RKgroupkg/VibeTune/"),
         InlineKeyboardButton(text="Help",callback_data="helphome")
         ],
         [
