@@ -89,6 +89,7 @@ async def ytdl_down(path,video_url,id):
         "prefer_ffmpeg": True,
         "geo_bypass": True,
         "cache-dir": "/tmp/",
+        "cookiefile":"Cookie.txt",
         "nocheckcertificate": True,
         "postprocessors": [{'key': 'FFmpegExtractAudio', 'preferredcodec': qa, 'preferredquality': '693'}],
     }
@@ -119,6 +120,7 @@ async def ytdl_down(path,video_url,id):
                 "prefer_ffmpeg": True,
                 "geo_bypass": True,
                 "cache-dir": "/tmp/",
+                "cookiefile":"Cookie.txt",
                 "nocheckcertificate": True,
                 "proxy": f"socks5://{FIXIE_SOCKS_HOST}",
                 "postprocessors": [{'key': 'FFmpegExtractAudio', 'preferredcodec': qa, 'preferredquality': '693'}],
