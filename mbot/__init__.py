@@ -147,7 +147,7 @@ def ping_self():
 
 def start_scheduler():
     scheduler = BackgroundScheduler(timezone=pytz.utc)
-    scheduler.add_job(ping_self, 'interval', minutes=3)
+    scheduler.add_job(ping_self, 'interval', minutes=1)
     scheduler.start()
 
 app = Flask(__name__)
